@@ -1,0 +1,17 @@
+2024-07-05 16:25:20.028 -07:00 [INF] User profile is available. Using 'C:\Users\Ariel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:25:20.208 -07:00 [INF] Now listening on: https://localhost:7295
+2024-07-05 16:25:20.209 -07:00 [INF] Now listening on: http://localhost:5158
+2024-07-05 16:25:20.209 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:25:20.209 -07:00 [INF] Hosting environment: Development
+2024-07-05 16:25:20.209 -07:00 [INF] Content root path: C:\Users\Ariel\source\repos\NZWalks\NZWalks.API
+2024-07-05 16:25:20.868 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7295/swagger/index.html - -
+2024-07-05 16:25:20.966 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7295/swagger/index.html - - - 200 - text/html;charset=utf-8 98.9252ms
+2024-07-05 16:25:20.990 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7295/_framework/aspnetcore-browser-refresh.js - -
+2024-07-05 16:25:20.994 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7295/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.9360ms
+2024-07-05 16:25:21.030 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7295/swagger/v1/swagger.json - -
+2024-07-05 16:25:21.107 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7295/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.0541ms
+2024-07-05 16:25:28.156 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7295/api/Regions - -
+2024-07-05 16:25:28.220 -07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader)
+2024-07-05 16:25:28.223 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-07-05 16:25:28.223 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7295/api/Regions - - - 401 0 - 67.3190ms
